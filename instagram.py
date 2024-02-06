@@ -23,7 +23,7 @@ class Engine(object):
         self.resume = False
         self.is_alive = True
         self.threads = threads
-        self.username = username
+        self.username = jai_kundra24
         self.passlist_path = passlist_path
         self.display = Display(is_color=is_color)
         self.bruter = Bruter(username, threads, passlist_path)
@@ -35,8 +35,8 @@ class Engine(object):
 
     def write_to_file(self, password):
         with open(credentials, "at") as f:
-            data = "Username: {}\nPassword: {}\n\n".format(
-                self.username.title(), password
+            data = "jai_kundra24: {}\nPassword: {}\n\n".format(
+                self.jai_kundra24.title(), password
             )
             f.write(data)
 
